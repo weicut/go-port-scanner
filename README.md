@@ -1,7 +1,7 @@
 # go-port-scanner
 golang网络端口扫描器，支持tcp/udp协议
 
-#使用教程
+# 使用教程
 
 命令：go run main.go [options] address  
 options：  
