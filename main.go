@@ -23,7 +23,7 @@ type PortScan struct {
 
 var protocol = flag.String("p", "tcp", "Use the specified protocol")
 var cores = flag.Int("c", 1, "Use the specified core number")
-var threads = flag.Int("t", 0, "Use the specified thread number")
+var threads = flag.Int("t", 1, "Use the specified thread number")
 var timeout = flag.Int("d", 5, "Use the specified duration")
 
 func main() {
